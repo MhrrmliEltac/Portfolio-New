@@ -9,6 +9,7 @@ import Portfolio from "./components/sections/Portfolio";
 import Navigation from "./components/sidebar/Navigation";
 import "./App.css";
 import InfoSidebar from "./components/sidebar/InfoSidebar";
+import Header from "./components/header/Header";
 
 function App() {
   return (
@@ -19,6 +20,7 @@ function App() {
             path="/"
             element={
               <MainLayout>
+                <Header />
                 <InfoSidebar />
                 <Navigation />
                 <HeroSection />
