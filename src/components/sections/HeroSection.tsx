@@ -30,7 +30,7 @@ const HeroSection = () => {
               href="#contact"
               className="bg-[#F78F42] hover:scale-110 duration-500 transition-all rounded-[56px] max-w-[182px] w-full max-h-full h-14 flex justify-center items-center gap-2"
             >
-              <span className="text-[#131313] text-[18px] font-medium">
+              <span className="text-[#131313] text-[18px] max-sm:text-[10px] font-medium">
                 Əlaqə saxla
               </span>
               <div className="rounded-full w-6 h-6 flex items-center justify-center text-white">
