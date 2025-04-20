@@ -3,8 +3,11 @@ import Heading from "../general/Heading";
 import { EducationData, EducationDataType } from "../../_mock/Education";
 import { motion } from "framer-motion";
 import { sectionVariant } from "../../utils/Animation";
+import { useTranslation } from "react-i18next";
 
 const EducationSection: React.FC = () => {
+  const { t } = useTranslation();
+
   return (
     <motion.section
       variants={sectionVariant}
@@ -25,7 +28,7 @@ const EducationSection: React.FC = () => {
             >
               <div className="xl:w-1/2 w-full flex flex-col gap-2">
                 <span className="text-[#131313] text-lg font-semibold">
-                  {education.university}
+                  {t(education.university)}
                 </span>
                 <span className="bg-[#F78F421A] text-[#F78F42] font-[500] text-[12px] block w-fit rounded-lg px-2 py-1">
                   {education.date}
@@ -33,9 +36,9 @@ const EducationSection: React.FC = () => {
               </div>
               <div className="xl:w-1/2 w-full">
                 <span className="text-[18px] font-medium text-[#131313]">
-                  {education.ixtisas}
+                  {t(education.ixtisas)}
                 </span>
-                <p className="text-[#888888]">{education.description}</p>
+                <p className="text-[#888888]">{t(education.description)}</p>
               </div>
             </div>
           ))}

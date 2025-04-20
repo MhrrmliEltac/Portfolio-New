@@ -3,8 +3,11 @@ import AvatarImg from "../../assets/WhatsApp Image 2025-04-17 at 23.32.39.jpeg";
 import { motion } from "framer-motion";
 import { Facebook, Github, Instagram, Linkedin } from "lucide-react";
 import { SkillData, SkillType } from "../../_mock/Skills";
+import { useTranslation } from "react-i18next";
 
 const InfoSidebar: React.FC = () => {
+  const { t } = useTranslation();
+
   return (
     <aside className="inset-y-[2rem] inset-x-[1%] 2xl:flex hidden flex-col bg-white rounded-xl fixed w-[250px]">
       <div className="flex flex-col">
@@ -67,20 +70,22 @@ const InfoSidebar: React.FC = () => {
                 </span>
               </li>
               <li className="text-[14px] flex gap-5 justify-between">
-                <span className="text-[#131313] font-[400]">Tel:</span>
+                <span className="text-[#131313] font-[400]">{t("Tel")}:</span>
                 <span className="text-[#888888] font-[400]">
                   +994 51 767 37 68
                 </span>
               </li>
               <li className="text-[14px] flex gap-5 justify-between">
-                <span className="text-[#131313] font-[400]">Şəhər:</span>
-                <span className="text-[#888888] font-[400]">Azerbaijan</span>
+                <span className="text-[#131313] font-[400]">{t("Şəhər")}:</span>
+                <span className="text-[#888888] font-[400]">
+                  {t("Azərbaycan")}
+                </span>
               </li>
             </ul>
           </div>
           <div className="flex flex-col items-start justify-start gap-2 border-b pb-5 w-[90%]">
             <span className="flex w-full items-start justify-start text-[#131313] font-semibold text-[16px]">
-              Əsas bacarıqlar
+              {t("Əsas bacarıqlar")}
             </span>
             <div className="flex flex-wrap gap-2 text-[#888888] w-[70%]">
               {SkillData &&

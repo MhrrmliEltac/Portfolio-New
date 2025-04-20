@@ -10,11 +10,13 @@ import Navigation from "./components/sidebar/Navigation";
 import "./App.css";
 import InfoSidebar from "./components/sidebar/InfoSidebar";
 import Header from "./components/header/Header";
+import { Toaster } from "sonner";
 
 function App() {
   return (
     <BrowserRouter>
       <main className="bg-[#F6F6F6] h-full font-inter pb-5">
+        <Toaster />
         <Routes>
           <Route
             path="/"

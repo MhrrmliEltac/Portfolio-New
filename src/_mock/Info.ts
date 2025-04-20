@@ -6,7 +6,7 @@ export const InfoData = [
   {
     id: 0,
     image: MapIcon,
-    country: "Azerbaijan",
+    country: "Azərbaycan",
     city: "Baku",
     street: "Ö.F. Nemanzadə küç 28",
   },

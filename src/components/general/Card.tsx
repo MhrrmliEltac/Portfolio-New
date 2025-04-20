@@ -1,7 +1,10 @@
+import { useTranslation } from "react-i18next";
 import { InfoData } from "../../_mock/Info";
 import { Card, CardContent, CardHeader } from "../ui/card";
 
 const CartTouch = () => {
+  const { t } = useTranslation();
+
   return (
     <div className="flex flex-col gap-5">
       {InfoData &&
@@ -23,11 +26,15 @@ const CartTouch = () => {
                 <div className="flex flex-col justify-between items-center w-full">
                   <div className="flex justify-between items-center w-full lg:text-[14px] text-[12px] font-[400] text-[#131313]">
                     <span>
-                      {info.id === 0 ? "Ölkə" : info.id === 1 ? "Email" : "Tel"}
+                      {info.id === 0
+                        ? t("Ölkə")
+                        : info.id === 1
+                        ? "Email"
+                        : t("Tel")}
                     </span>
                     <span>
                       {info.id === 0
-                        ? info.country
+                        ? t(`${info.country}`)
                         : info.id === 1
                         ? info.email
                         : info.phone}
@@ -36,7 +43,7 @@ const CartTouch = () => {
                   <div className="flex justify-between items-center w-full lg:text-[14px] text-[12px] font-[400] text-[#131313]">
                     <span>
                       {info.id === 0
-                        ? "Şəhər"
+                        ? t("Şəhər")
                         : info.id === 1
                         ? "Linkedin"
                         : ""}
@@ -51,11 +58,15 @@ const CartTouch = () => {
                   </div>
                   <div className="flex justify-between items-center w-full lg:text-[14px] text-[12px] font-[400] text-[#131313]">
                     <span>
-                      {info.id === 0 ? "Küçə" : info.id === 1 ? "Facebook" : ""}
+                      {info.id === 0
+                        ? t("Küçə")
+                        : info.id === 1
+                        ? "Facebook"
+                        : ""}
                     </span>
                     <span>
                       {info.id === 0
-                        ? info.street
+                        ? t(`${info.street}`)
                         : info.id === 1
                         ? info.facebook
                         : ""}

@@ -3,8 +3,10 @@ import { motion } from "framer-motion";
 import { sectionVariant } from "../../utils/Animation";
 import AvatarImg from "../../assets/WhatsApp Image 2025-04-17 at 23.32.39.jpeg";
 import UiVerseButton from "../general/UiVerseButton";
+import { useTranslation } from "react-i18next";
 
 const HeroSection = () => {
+  const { t } = useTranslation();
   return (
     <motion.section
       variants={sectionVariant}
@@ -20,10 +22,9 @@ const HeroSection = () => {
             Frontend Developer
           </h3>
           <p className="text-[18px] text-[#888888] font-[400]">
-            Mən, React, TypeScript və müasir CSS framework-lərindən istifadə
-            edərək ideyaları interaktiv veb təcrübələrə çevirən praktiki
-            təcrübəyə malik bir Frontend Developeram. Piksel dəqiqliyində
-            dizayna, performansa və təmiz koda xüsusi önəm verirəm.
+            {t(
+              "Mən, React, TypeScript və müasir CSS framework-lərindən istifadə edərək ideyaları interaktiv veb təcrübələrə çevirən praktiki təcrübəyə malik bir Frontend Developeram. Piksel dəqiqliyində dizayna, performansa və təmiz koda xüsusi önəm verirəm."
+            )}
           </p>
           <div className="flex gap-5">
             <a
@@ -31,7 +32,7 @@ const HeroSection = () => {
               className="bg-[#F78F42] hover:scale-110 duration-500 transition-all rounded-[56px] max-w-[182px] w-full max-h-full h-14 flex justify-center items-center gap-2"
             >
               <span className="text-[#131313] text-[18px] max-sm:text-[10px] font-medium">
-                Əlaqə saxla
+                {t("Əlaqə saxla")}
               </span>
               <div className="rounded-full w-6 h-6 flex items-center justify-center text-white">
                 <ArrowRight color="#131313" size={24} />

@@ -3,8 +3,11 @@ import Heading from "../general/Heading";
 import { ExperienceData, JobDataType } from "../../_mock/Experience";
 import { motion } from "framer-motion";
 import { sectionVariant } from "../../utils/Animation";
+import { useTranslation } from "react-i18next";
 
 const Expreience: React.FC = () => {
+  const { t } = useTranslation();
+
   return (
     <motion.section
       variants={sectionVariant}
@@ -31,11 +34,11 @@ const Expreience: React.FC = () => {
                   {experience.date}
                 </span>
               </div>
-              <div className="xl:w-1/2 w-full">
-                <span className="text-[18px] font-medium text-[#131313]">
+              <div className="xl:w-1/2 w-full flex flex-col">
+                <span className="text-[18px] font-medium text-[#131313] text-start">
                   {experience.jobTitle}
                 </span>
-                <p className="text-[#888888]">{experience.description}</p>
+                <p className="text-[#888888]">{t(experience.description)}</p>
               </div>
             </div>
           ))}

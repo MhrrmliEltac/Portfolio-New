@@ -6,10 +6,12 @@ import { Button } from "../ui/button";
 import { Pagination } from "antd";
 import { motion } from "framer-motion";
 import { sectionVariant } from "../../utils/Animation";
+import { useTranslation } from "react-i18next";
 
 const Portfolio: React.FC = () => {
   const [projectData, setProjectData] = useState<ProjecDataType[] | []>([]);
   const [currentPage, setCurrentPage] = useState(1);
+  const { t } = useTranslation();
   const itemsPerPage = 6;
   const indexOfLastItem = currentPage * itemsPerPage;
   const indexOfFirstItem = indexOfLastItem - itemsPerPage;
@@ -39,12 +41,12 @@ const Portfolio: React.FC = () => {
               </CardHeader>
               <CardContent className="flex flex-col justify-between gap-10 items-end">
                 <p className="lg:text-sm text-[12px] max-sm:text-[10px] h-[150px] text-[#888888]">
-                  {project.description}
+                  {t(project.description)}
                 </p>
                 <div className="flex flex-1 justify-end mt-auto">
                   <a href={`${project.link[0]}`} target="_blank">
                     <Button className="text-[#F78F42] bg-[#F78F421A] hover:bg-[#F78F42] hover:text-white outline-none">
-                      Keçid et
+                      {t("Keçid et")}
                     </Button>
                   </a>
                 </div>
