@@ -18,12 +18,12 @@ const HeroSection = () => {
     >
       <div className="flex justify-between items-center flex-wrap gap-10 bg-white rounded-xl p-16 transition-all duration-300 hover:shadow-md">
         <div className="flex flex-col gap-5 lg:w-2/5 w-full">
-          <h3 className="text-[48px] font-semibold text-[#131313]">
-            Frontend Developer
+          <h3 className="text-[40px] font-semibold text-[#131313]">
+            Frontend Developer | Flutter Enthusiast
           </h3>
           <p className="text-[18px] text-[#888888] font-[400]">
             {t(
-              "Mən, React, TypeScript və müasir CSS framework-lərindən istifadə edərək ideyaları interaktiv veb təcrübələrə çevirən praktiki təcrübəyə malik bir Frontend Developeram. Piksel dəqiqliyində dizayna, performansa və təmiz koda xüsusi önəm verirəm."
+              "Mən, React, TypeScript və müasir CSS framework-lərindən istifadə edərək ideyaları interaktiv veb təcrübələrə çevirən praktiki təcrübəyə malik bir Frontend Developeram. Piksel dəqiqliyində dizayna, performansa və təmiz koda xüsusi önəm verirəm. Flutter sahəsin də təcrübə qazanmağa və real layihələr də iştirak etməyə həvəsliyəm. Front end developer təcrübəsinə sahib bir developerəm"
             )}
           </p>
           <div className="flex gap-5">

@@ -4,7 +4,7 @@
   "Şəhər": "City",
   "Azərbaycan": "Azerbaijan",
   "Təhsil": "Education",
-  "Mən, React, TypeScript və müasir CSS framework-lərindən istifadə edərək ideyaları interaktiv veb təcrübələrə çevirən praktiki təcrübəyə malik bir Frontend Developeram. Piksel dəqiqliyində dizayna, performansa və təmiz koda xüsusi önəm verirəm.": "I am a Frontend Developer with hands-on experience turning ideas into interactive web experiences using React, TypeScript, and modern CSS frameworks. I focus on pixel-perfect design, performance, and clean code.",
+  "Mən, React, TypeScript və müasir CSS framework-lərindən istifadə edərək ideyaları interaktiv veb təcrübələrə çevirən praktiki təcrübəyə malik bir Frontend Developeram. Piksel dəqiqliyində dizayna, performansa və təmiz koda xüsusi önəm verirəm. Flutter sahəsin də təcrübə qazanmağa və real layihələr də iştirak etməyə həvəsliyəm. Front end developer təcrübəsinə sahib bir developerəm": "I am a Frontend Developer with hands-on experience turning ideas into interactive web experiences using React, TypeScript, and modern CSS frameworks. I focus on pixel-perfect design, performance, and clean code. I am eager to gain experience in the Flutter field and participate in real projects. I am a developer with front end developer experience.",
   "Azerbaijan Dövlət Neft və Sənaye Universiteti": "Azerbaijan State Oil and Industry University",
   "Kompyuter mühəndisliyi": "Computer engineering",
   "ASOİU-da təhsil aldığım müddətdə alqoritmlər, verilənlər strukturu, proqram mühəndisliyi və web development sahələrində biliklər əldə etmişəm. Layihələrim vasitəsilə praktiki bacarıqlarımı artırmışam və müxtəlif texnologiyalarla işləmə təcrübəsi qazanmışam.": "During my studies at ASOIU, I gained knowledge in the fields of algorithms, data structures, software engineering, and web development. Through my projects, I have improved my practical skills and gained experience working with various technologies.",
@@ -30,5 +30,8 @@
   "Mesaj göndər": "Send message",
   "Ölkə": "Country",
   "Küçə": "Street",
-  "Ö.F. Nemanzadə küç 28": "Ö.F. Nemanzade street 28"
+  "Ö.F. Nemanzadə küç 28": "Ö.F. Nemanzade street 28",
+  "Bu mobil applikasiya da api-dan gələn hava məlumatını ekranda göstərmişəm. Burada dio paketindən istifadə edərək, məlumatları gətirmişəm. Geolocator və geocoding vasitəsilə istifadəçinin məkanını alıb istək atmışam": "In this mobile application, I have displayed the weather information coming from the API on the screen. Here, I have used the dio package to fetch the data. I have requested the user's location using geolocator and geocoding.",
+  "Burada istifadəçi səhifə də aşağı doğru hərəkət elətdirdikcə api-dan məlumatlar gəlir. State management olaraq Provider istifadə etmişəm.": "Here, as the user scrolls down the page, data is received from the API. I have used a Provider as state management.",
+  "TigHubad applikasiyasın da söz bazanızı artırmaq üçün lüğət proqramıdı. Burada test işliyərək sözün mənasını tapmaq, sözün deyilişinə qulaq asmaq və lüğətdən söz axtarmaq bu kimi funksionallıqlar düşünürəm. Hələki dizayn hazırlanır": "The TigHubad application is also a dictionary program to increase your vocabulary. Here, I am thinking of functionalities such as finding the meaning of a word by running a test, listening to the pronunciation of the word, and looking up words in the dictionary. The design is still being developed."
 }

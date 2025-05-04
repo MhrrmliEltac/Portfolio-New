@@ -7,6 +7,27 @@ export interface ProjecDataType {
 
 export const ProjecData: ProjecDataType[] = [
   {
+    id: 113,
+    title: "TigHubad | Flutter & Dart",
+    description:
+      "TigHubad applikasiyasın da söz bazanızı artırmaq üçün lüğət proqramıdı. Burada test işliyərək sözün mənasını tapmaq, sözün deyilişinə qulaq asmaq və lüğətdən söz axtarmaq bu kimi funksionallıqlar düşünürəm. Hələki dizayn hazırlanır",
+    link: ["https://github.com/MhrrmliEltac/TigHubad.git"],
+  },
+  {
+    id: 11,
+    title: "Pagination | Flutter & Dart",
+    description:
+      "Burada istifadəçi səhifə də aşağı doğru hərəkət elətdirdikcə api-dan məlumatlar gəlir. State management olaraq Provider istifadə etmişəm.",
+    link: ["https://github.com/MhrrmliEltac/Pagination_Flutter.git"],
+  },
+  {
+    id: 12,
+    title: "Weather App | Flutter & Dart",
+    description:
+      "Bu mobil applikasiya da api-dan gələn hava məlumatını ekranda göstərmişəm. Burada dio paketindən istifadə edərək, məlumatları gətirmişəm. Geolocator və geocoding vasitəsilə istifadəçinin məkanını alıb istək atmışam",
+    link: ["https://github.com/MhrrmliEltac/Weather_App.git"],
+  },
+  {
     id: 1,
     title: "Bouquet | TypeScript",
     description:
