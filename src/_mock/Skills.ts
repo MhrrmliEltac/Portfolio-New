@@ -18,7 +18,7 @@ export const SkillData: SkillType[] = [
   { id: 19, skill: "Redux Toolkit" },
   { id: 1233, skill: "React Router" },
   { id: 5, skill: "Web Applications" },
-  { id: 123, skill: "API Integrations" },
+  { id: 1235, skill: "API Integrations" },
   { id: 13, skill: "Tailwind CSS" },
   { id: 9, skill: "Material-UI" },
   { id: 145, skill: "Shadcn/ui" },
