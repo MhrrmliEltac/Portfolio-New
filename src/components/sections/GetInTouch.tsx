@@ -1,4 +1,4 @@
-import React, { FormEvent, useRef } from "react";
+import React, { FormEvent, useEffect, useRef } from "react";
 import { Input } from "../ui/input";
 import { Textarea } from "../ui/textarea";
 import { Button } from "../ui/button";
@@ -12,10 +12,26 @@ import { useTranslation } from "react-i18next";
 
 const GetInTouch: React.FC = () => {
   const form = useRef<HTMLFormElement | null>(null);
+  const [formElement, setFormElement] = React.useState<{
+    name: string;
+    email: string;
+    subject: string;
+    message: string;
+  }>({
+    name: "",
+    email: "",
+    subject: "",
+    message: "",
+  });
   const { t } = useTranslation();
 
   const handleSubmit = (e: FormEvent) => {
     e.preventDefault();
+
+    if (!formElement.name || !formElement.email || !formElement.subject) {
+      toast.error(t("Zəhmət olmasa bütün sahələri doldurun"));
+      return;
+    }
 
     emailjs.sendForm(
       import.meta.env.VITE_SERVICE_ID,
@@ -26,7 +42,17 @@ const GetInTouch: React.FC = () => {
       }
     );
 
-    toast.success("Sent message successfully");
+    toast.success(t("Mesaj uğurla göndərildi"));
+  };
+
+  const handleChange = (
+    e: React.ChangeEvent<HTMLInputElement | HTMLTextAreaElement>
+  ) => {
+    const { name, value } = e.target;
+    setFormElement((prev) => ({
+      ...prev,
+      [name]: value,
+    }));
   };
 
   return (
@@ -56,6 +82,7 @@ const GetInTouch: React.FC = () => {
               <Input
                 type="text"
                 name="name"
+                onChange={handleChange}
                 id="name"
                 className="bg-[#F6F6F6]"
               />
@@ -70,6 +97,7 @@ const GetInTouch: React.FC = () => {
               <Input
                 type="email"
                 name="email"
+                onChange={handleChange}
                 id="email"
                 className="bg-[#F6F6F6]"
               />
@@ -85,6 +113,7 @@ const GetInTouch: React.FC = () => {
             <Input
               type="text"
               name="subject"
+              onChange={handleChange}
               id="subject"
               className="bg-[#F6F6F6]"
             />
@@ -96,7 +125,12 @@ const GetInTouch: React.FC = () => {
             >
               {t("Mesaj")}
             </label>
-            <Textarea className="bg-[#F6F6F6]" name="message" id="message" />
+            <Textarea
+              className="bg-[#F6F6F6]"
+              name="message"
+              onChange={handleChange}
+              id="message"
+            />
           </div>
           <Button
             onClick={handleSubmit}
