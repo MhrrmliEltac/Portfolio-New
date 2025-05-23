@@ -1,4 +1,4 @@
-import React, { FormEvent, useEffect, useRef } from "react";
+import React, { FormEvent, useRef } from "react";
 import { Input } from "../ui/input";
 import { Textarea } from "../ui/textarea";
 import { Button } from "../ui/button";
