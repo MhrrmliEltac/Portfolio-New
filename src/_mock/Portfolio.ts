@@ -7,6 +7,13 @@ export interface ProjecDataType {
 
 export const ProjecData: ProjecDataType[] = [
   {
+    id: 99,
+    title: "Rick and Morty | Flutter & Dart",
+    description:
+      "Bu mobil applikasiyada Rick and Morty seriyasının personajlarını göstərmişəm. Burada dio paketindən istifadə edərək, məlumatları gətirmişəm. Rick and Morty API-dan istifadə etmişəm. Personajların şəkillərini, adlarını, statusunu, növünü göstərmişəm. Həmçinin personajın üzərinə kliklədikdə onun haqqında ətraflı məlumatları göstərir.",
+    link: ["https://github.com/MhrrmliEltac/Weather_App.git"],
+  },
+  {
     id: 113,
     title: "TigHubad | Flutter & Dart",
     description:
