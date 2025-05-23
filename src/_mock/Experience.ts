@@ -13,7 +13,7 @@ export const ExperienceData: JobDataType[] = [
     jobTitle: "Front End Developer Intern",
     date: "19.02.2025 - present",
     description:
-      "• React.js, TypeScript, Material UI, Tailwind CSS istifadə edərək API-larla işləyən modern veb sayt hazırladım.\n• Müştəri tələblərinə uyğun şəkildə adaptiv və funksional interfeyslər dizayn etdim.\n• Framer motion vasitəsilə animasiyalı veb saytlar hazırladım",
+      "• React.js, TypeScript, Material UI, Tailwind CSS istifadə edərək API-larla işləyən modern veb sayt hazırladım.\n• Müştəri tələblərinə uyğun şəkildə adaptiv və funksional interfeyslər dizayn etdim.\n• Framer motion vasitəsilə animasiyalı veb saytlar hazırladım\n• Müxtəlif API-larla inteqrasiya olunmuş real layihələr üzərində işlədim.\n• Dizaynerlər və backend tərtibatçıları ilə sıx əməkdaşlıq edərək, mən təmiz kodla yaradıcı konsepsiyaları həyata keçirdim.",
   },
   {
     id: 1,

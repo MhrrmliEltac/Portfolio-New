@@ -26,9 +26,9 @@ function App() {
                 <InfoSidebar />
                 <Navigation />
                 <HeroSection />
-                <EducationSection />
-                <Portfolio />
                 <Expreience />
+                <Portfolio />
+                <EducationSection />
                 <GetInTouch />
                 <Footer />
               </MainLayout>

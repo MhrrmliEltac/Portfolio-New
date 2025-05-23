@@ -43,7 +43,7 @@ const GetInTouch: React.FC = () => {
         <form
           ref={form}
           onSubmit={handleSubmit}
-          className="flex gap-10 flex-col xl:w-3/4 md:w-1/2 bg-white rounded-xl p-5 transition-all duration-300 hover:shadow-md"
+          className="flex gap-10 flex-col 2xl:w-3/4 md:w-1/2 bg-white rounded-xl p-5 transition-all duration-300 hover:shadow-md"
         >
           <div className="flex gap-10 max-md:flex-wrap">
             <div className="flex flex-col w-full">
@@ -106,7 +106,7 @@ const GetInTouch: React.FC = () => {
             {t("Mesaj göndər")}
           </Button>
         </form>
-        <div className="xl:w-1/4 md::w-1/2 w-full flex flex-col transition-all duration-300">
+        <div className="2xl:w-1/4 md:w-1/2 w-full flex flex-col transition-all duration-300">
           <CartTouch />
         </div>
       </div>

@@ -29,6 +29,13 @@ export const ProjecData: ProjecDataType[] = [
   },
   {
     id: 1,
+    title: "BookSto | TypeScript",
+    description:
+      "Bu sayt kitabların satışı üçün nəzərdə tutulmuşdur. Saytın frontend hissəsi React, TypeScript, Framer Motion və Redux kimi texnologiyalarla qurulmuşdur. Backend isə firebase authentication üçün və supabase isə storage üçün istifadə etmişəm.",
+    link: ["https://book-sto.vercel.app/"],
+  },
+  {
+    id: 1231,
     title: "Bouquet | TypeScript",
     description:
       "Bu, onlayn satış üçün nəzərdə tutulmuş veb səhifədir. Layihədə TypeScript, Framer Motion, komponent əsaslı arxitektura və digər müasir React texnologiyalarından istifadə olunmuşdur.",

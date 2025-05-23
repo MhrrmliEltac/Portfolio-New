@@ -17,7 +17,7 @@ const HeroSection = () => {
       id="hero"
     >
       <div className="flex justify-between items-center flex-wrap gap-10 bg-white rounded-xl p-16 transition-all duration-300 hover:shadow-md">
-        <div className="flex flex-col gap-5 lg:w-2/5 w-full">
+        <div className="flex flex-col gap-5 2xl:w-2/5 w-full">
           <h3 className="text-[40px] font-semibold text-[#131313]">
             Frontend Developer | Flutter Enthusiast
           </h3>
