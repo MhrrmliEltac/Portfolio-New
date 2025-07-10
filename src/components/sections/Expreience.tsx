@@ -24,7 +24,7 @@ const Expreience: React.FC = () => {
           ExperienceData.map((experience: JobDataType) => (
             <div
               key={experience.id}
-              className="flex justify-between items-center p-3 border-b flex-wrap"
+              className="flex justify-between items-center p-3 border-b flex-wrap w-full"
             >
               <div className="xl:w-1/2 w-full flex flex-col gap-2">
                 <span className="text-[#131313] text-lg font-semibold">
@@ -38,7 +38,13 @@ const Expreience: React.FC = () => {
                 <span className="text-[18px] font-medium text-[#131313] text-start">
                   {experience.jobTitle}
                 </span>
-                <p className="text-[#888888]">{t(experience.description)}</p>
+                <ul className="text-[#888888] list-disc pl-5 space-y-1">
+                  {t(experience.description)
+                    .split("\n")
+                    .map((item, idx) => (
+                      <li key={idx}>{item}</li>
+                    ))}
+                </ul>
               </div>
             </div>
           ))}

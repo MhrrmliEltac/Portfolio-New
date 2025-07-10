@@ -40,6 +40,16 @@ const Portfolio: React.FC = () => {
                 {project.title}
               </CardHeader>
               <CardContent className="flex flex-col justify-between gap-10 items-end">
+                <div className="w-full flex justify-start gap-2 flex-wrap">
+                  {project.technologia.map((tech, index) => (
+                    <span
+                      key={index}
+                      className="text-[10px] cursor-pointer font-semibold border border-[#F78F42] rounded-md px-2 py-1 bg-[#F78F421A] text-[#F78F42] shadow-sm hover:bg-[#F78F42] hover:text-white transition-colors duration-300 select-none"
+                    >
+                      {tech}
+                    </span>
+                  ))}
+                </div>
                 <p className="lg:text-sm text-[12px] max-sm:text-[10px] h-[150px] text-[#888888]">
                   {t(project.description)}
                 </p>

@@ -28,4 +28,5 @@ export const SkillData: SkillType[] = [
   { id: 6, skill: "MySql" },
   { id: 62, skill: "Figma" },
   { id: 64, skill: "Responsive Design" },
+  { id: 65, skill: "Zustand" },
 ];
