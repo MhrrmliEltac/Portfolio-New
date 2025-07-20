@@ -19,7 +19,7 @@ export const ProjecData: ProjecDataType[] = [
       "React-i18n",
       "Swiper",
       "Zustand",
-      "Sonner",
+      "Shadcn/ui",
       "Framer-motion",
       "Axios",
       "Number-flow",
@@ -58,7 +58,7 @@ export const ProjecData: ProjecDataType[] = [
       "Material UI",
       "Swiper",
       "Zustand",
-      "Sonner",
+      "Shadcn/ui",
       "Framer-motion",
       "Axios",
       "Number-flow",
@@ -69,11 +69,38 @@ export const ProjecData: ProjecDataType[] = [
     ],
   },
   {
+    id: 123123123,
+    title: "Next pick",
+    description:
+      "Elektronik əşyaların satışı ilə bağlı bir saytdır. Burada backend hissəsin özüm Express.js və MongoDB ilə hazırlamışam. Bu saytı öz üzərim də daha da inkişaf etmək üçün hazırlayıram və davam edir. Və hal hazırda üzərin də düzəlişlər edirəm.",
+    link: [
+      "https://next-pick-commerce.vercel.app/",
+      "https://github.com/MhrrmliEltac/NEXT-PICK",
+    ],
+    technologia: [
+      "React",
+      "TypeScript",
+      "Express.js",
+      "MongoDb",
+      "React-Router-Dom",
+      "Material UI",
+      "Zustand",
+      "Axios",
+      "TailwindCSS",
+      "Framer-motion",
+      "Shadcn/ui",
+      "Swiper",
+    ],
+  },
+  {
     id: 2,
     title: "Furniture Website",
     description:
       "Bu, müxtəlif mebel məhsullarının onlayn satışını təmin edən veb səhifədir. Saytın frontend hissəsi React, TypeScript, Framer Motion və Redux kimi texnologiyalarla qurulmuşdur. Backend isə Express.js və MongoDB istifadə edilərək hazırlanmışdır. Saytda məhsul filtrasiyası, kateqoriya əsaslı axtarış, istifadəçi hesabları, səbət funksionallığı və dinamik animasiyalar mövcuddur.",
-    link: ["https://furnite-ui.vercel.app/"],
+    link: [
+      "https://furnite-ui.vercel.app/",
+      "https://github.com/MhrrmliEltac/FurniteUI",
+    ],
     technologia: [
       "TypeScript",
       "Material UI",
@@ -103,7 +130,10 @@ export const ProjecData: ProjecDataType[] = [
     ],
     description:
       "Bu sayt kitabların satışı üçün nəzərdə tutulmuşdur. Saytın frontend hissəsi React, TypeScript, Framer Motion və Redux kimi texnologiyalarla qurulmuşdur. Backend isə firebase authentication üçün və supabase isə storage üçün istifadə etmişəm.",
-    link: ["https://book-sto.vercel.app/"],
+    link: [
+      "https://book-sto.vercel.app/",
+      "https://github.com/MhrrmliEltac/BookSto",
+    ],
   },
   {
     id: 5,
@@ -112,7 +142,7 @@ export const ProjecData: ProjecDataType[] = [
       "'Coza Store' adlanan bu E-Commerce veb səhifəsini Fake Store API-dan istifadə edərək hazırlamışam. Layihəni React ilə həyata keçirmişəm. Autentifikasiya və autorizasiya əməliyyatlarını Node JS ilə icra etmişəm. Github-dan endirərək serveri başladıb baxa bilərsiz",
     link: [
       "https://e-commerce-website-fake.vercel.app/",
-      "https://github.com/MhrrmliEltac/ServerNodeJS.git",
+      "https://github.com/MhrrmliEltac/E-commerce-Website",
     ],
     technologia: ["React", "Material UI", "React-Router-Dom", "Redux-Toolkit"],
   },
@@ -120,7 +150,10 @@ export const ProjecData: ProjecDataType[] = [
     id: 6,
     title: "Weather",
     description: "Burada şəhərlər üzrə axtarış edərək hava şəraitini göstərir.",
-    link: ["https://weatherprogram.netlify.app/"],
+    link: [
+      "https://weatherprogram.netlify.app/",
+      "https://github.com/MhrrmliEltac/WeatherReact",
+    ],
     technologia: ["React", "Material UI", "Reat-Router-Dom", "Axios"],
   },
   {
@@ -133,10 +166,24 @@ export const ProjecData: ProjecDataType[] = [
   },
   {
     id: 8,
-    title: "ToDo List",
+    title: "Quiz App",
     description:
-      "TypeScript-də yeni başladığım üçün sadə dizayn bir todo list app düzəltməyi fikirləşdim. Sadə olmasa da düzəltməyi bacardıq. Redux-toolkit istifadə edərək ərsəyə gətirdim",
-    link: ["https://todo-listapp-typescript.vercel.app/"],
-    technologia: ["TypeScript", "Material UI"],
+      "Proqramlaşdırmaya yeni başladığım dövrdə HTML, CSS və JavaScript istifadə edərək API sorğuları vasitəsilə sualları çəkən və istifadəçinin cavablarını yoxlayan interaktiv bir Quiz tətbiqi hazırlamışam.",
+    link: [
+      "https://mhrrmlieltac.github.io/QuizApp.github.io/",
+      "https://github.com/MhrrmliEltac/QuizApp.github.io",
+    ],
+    technologia: ["HTML", "CSS", "JavaScript"],
+  },
+  {
+    id: 8654,
+    title: "Todo List",
+    description:
+      "HTML, CSS və JavaScript istifadə edərək drag-and-drop funksionallığına malik bir ToDo tətbiqi hazırlamışam. Bu, proqramlaşdırmaya yeni başladığım dövrdə hazırladığım layihələrdən biridir",
+    link: [
+      "https://mhrrmlieltac.github.io/To-do-List/",
+      "https://github.com/MhrrmliEltac/To-do-List",
+    ],
+    technologia: ["HTML", "CSS", "JavaScript"],
   },
 ];

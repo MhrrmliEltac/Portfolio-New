@@ -15,6 +15,7 @@ const Portfolio: React.FC = () => {
   const itemsPerPage = 6;
   const indexOfLastItem = currentPage * itemsPerPage;
   const indexOfFirstItem = indexOfLastItem - itemsPerPage;
+  console.log(indexOfLastItem, "indexlast", indexOfFirstItem, "indexFirst");
   const currentProjects = projectData.slice(indexOfFirstItem, indexOfLastItem);
 
   useEffect(() => {
@@ -50,10 +51,19 @@ const Portfolio: React.FC = () => {
                     </span>
                   ))}
                 </div>
-                <p className="lg:text-sm text-[12px] max-sm:text-[10px] h-[150px] text-[#888888]">
+                <p className="lg:text-sm text-[12px] max-sm:text-[10px] h-[150px]  text-[#888888]">
                   {t(project.description)}
                 </p>
-                <div className="flex flex-1 justify-end mt-auto">
+                <div className="flex flex-1 justify-end mt-auto gap-5">
+                  <a
+                    href={`${project.link[1]}`}
+                    target="_blank"
+                    className={`${project.link[1] ? "block" : "hidden"}`}
+                  >
+                    <Button className="text-[#F78F42] bg-[#F78F421A] hover:bg-[#4254f7] hover:text-white outline-none">
+                      {t("Github link")}
+                    </Button>
+                  </a>
                   <a href={`${project.link[0]}`} target="_blank">
                     <Button className="text-[#F78F42] bg-[#F78F421A] hover:bg-[#F78F42] hover:text-white outline-none">
                       {t("Keçid et")}
