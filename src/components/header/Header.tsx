@@ -77,16 +77,17 @@ const Header: React.FC = () => {
   const [scrollPos, setScrollPos] = useState(0);
 
   useEffect(() => {
-    const handleScroll = () => setScrollPos(window.scrollY);
+    const handleScroll = () => {
+      // Throttle scroll events to improve performance
+      requestAnimationFrame(() => {
+        setScrollPos(window.scrollY);
+      });
+    };
 
-    window.addEventListener("scroll", handleScroll);
+    window.addEventListener("scroll", handleScroll, { passive: true });
 
     return () => window.removeEventListener("scroll", handleScroll);
   }, []);
-
-  useEffect(() => {
-    window.scrollTo(0, scrollPos);
-  }, [scrollPos]);
 
   return (
     <motion.section
@@ -94,10 +95,9 @@ const Header: React.FC = () => {
       initial="initial"
       whileInView="animate"
       transition={{ duration: 0.5 }}
-      className={`${
-        scrollPos > 0 &&
+      className={`${scrollPos > 0 &&
         "fixed transition duration-300 top-0 -translate-y-[10%] left-[10%] z-10"
-      } xl:w-[65%] w-[80%] mx-auto py-10 max-lg:flex hidden justify-between gap-[24px] flex-col duration-300 transition-all`}
+        } xl:w-[65%] w-[80%] mx-auto py-10 max-lg:flex hidden justify-between gap-[24px] flex-col duration-300 transition-all`}
     >
       <div
         className={`rounded-[80px] bg-white py-3 flex justify-between items-center shadow-md`}

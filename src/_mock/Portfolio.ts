@@ -93,6 +93,29 @@ export const ProjecData: ProjecDataType[] = [
     ],
   },
   {
+    id: 12313123,
+    title: "Browser extensionn",
+    description:
+      "Burada həm backend, həm də Next.js biliklərimi artırmaq üçün sadə bir browser extension hazırladım. Layihə də backend hissəsin express.js, prisma istifadə etdim. Frontend hissə də isə Next.js ilə server tərəfdə api-a istək atmaq və client tərəfdə dataları göstərə bilmək. Və browser extension yaratmaq üçün form hazırladım. Loqoları buluda daşıdım və orada saxladım",
+    technologia: [
+      "Express",
+      "Prisma",
+      "Cloudinary",
+      "Multer",
+      "Next.js",
+      "React.js",
+      "React-dom",
+      "Axios",
+      "Zustand",
+      "Shadcn",
+      "TailwindCSS",
+    ],
+    link: [
+      "https://github.com/MhrrmliEltac/browser-extension-backend.git",
+      "https://github.com/MhrrmliEltac/browser-extension.git",
+    ],
+  },
+  {
     id: 2,
     title: "Furniture Website",
     description:
