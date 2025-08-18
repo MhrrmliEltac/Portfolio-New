@@ -11,7 +11,7 @@ export const ExperienceData: JobDataType[] = [
     id: 0,
     company: "E.S.A.M Innovations",
     jobTitle: "Junior Front End Developer",
-    date: "19.02.2025 - present",
+    date: "19.02.2025 - 10.08.2025",
     description:
       "ParkCinema layihəsində veb sayt və admin panel üzərində dəyişikliklər və optimizasiyalar etdim.\n Ideal Kredit platformasında funksional təkmilləşdirmələr həyata keçirdim.\n BQT admin panelində CRUD əməliyyatlarını və istifadəçi/rol idarəetməsi kimi funksionallıqları üzərin də işləyirəm.\n Layihələrdə Zustand ilə state management istifadə edərək mövcud kodların strukturlaşdırılmasını və performansını yaxşılaşdırdım.\n Backend developer ilə sıx əməkdaşlıq edərək inteqrasiya olunmuş API-lərlə məlumat axınını uğurla idarə etdim.",
   },
