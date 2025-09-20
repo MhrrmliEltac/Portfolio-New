@@ -19,7 +19,7 @@ const HeroSection = () => {
       <div className="flex justify-between items-center flex-wrap gap-6 lg:gap-10 bg-white rounded-xl p-6 lg:p-16 transition-all duration-300 hover:shadow-md">
         <div className="flex flex-col gap-4 lg:gap-5 2xl:w-2/5 w-full">
           <h3 className="text-2xl sm:text-3xl lg:text-[40px] font-semibold text-[#131313] leading-tight">
-            Frontend Developer | Flutter Enthusiast
+            Frontend Developer
           </h3>
           <p className="text-sm sm:text-base lg:text-[18px] text-[#888888] font-[400] leading-relaxed">
             {t(
@@ -35,7 +35,11 @@ const HeroSection = () => {
                 {t("Əlaqə saxla")}
               </span>
               <div className="rounded-full w-5 h-5 lg:w-6 lg:h-6 flex items-center justify-center text-white">
-                <ArrowRight color="#131313" size={20} className="lg:w-6 lg:h-6" />
+                <ArrowRight
+                  color="#131313"
+                  size={20}
+                  className="lg:w-6 lg:h-6"
+                />
               </div>
             </a>
             <UiVerseButton />

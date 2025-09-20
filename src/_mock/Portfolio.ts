@@ -69,6 +69,27 @@ export const ProjecData: ProjecDataType[] = [
     ],
   },
   {
+    id: 100,
+    title: "Dash Stack",
+    description:
+      "İstifadəçi və idarəçi təcrübəsini nəzərə alaraq funksional və istifadəsi rahat admin panel hazırladım. Paneldə dashboard, məhsullar, seçilmişlər və digər idarəetmə bölmələri yer alır. Məlumatların vizualizasiyası üçün chart komponentlərindən istifadə etdim. Paneldə responsiv dizayn, təkrar istifadə oluna bilən komponentlər, və modul əsaslı arxitektura tətbiq edilmişdir.",
+    link: [
+      "https://dash-stack-next-js.vercel.app/dashboard",
+      "https://github.com/MhrrmliEltac/DashStack-Next.js.git",
+    ],
+    technologia: [
+      "Next.js",
+      "TypeScript",
+      "React.js",
+      "Material UI",
+      "Material Chart",
+      "Material Date Pickers",
+      "Day.js",
+      "Swiper",
+      "Zustand",
+    ],
+  },
+  {
     id: 123123123,
     title: "Next pick",
     description:

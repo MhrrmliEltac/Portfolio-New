@@ -9,11 +9,19 @@ export interface JobDataType {
 export const ExperienceData: JobDataType[] = [
   {
     id: 0,
+    company: "QSS Analytics",
+    jobTitle: "Front End Developer",
+    date: "12.09.2025 - present",
+    description:
+      "Responsiv və mobil uyğun interfeyslər hazırlamaq.\n Modul və təkrar istifadə oluna bilən UI komponentlər hazırlamaq.\n Backend API-larla inteqrasiya etmək və verilənləri vizuallaşdırmaq.\n Kodun təkrar yazılmamasına və tətbiqin optimizasiyasını yerinə yetirmək.",
+  },
+  {
+    id: 0,
     company: "E.S.A.M Innovations",
-    jobTitle: "Junior Front End Developer",
+    jobTitle: "Front End Developer",
     date: "19.02.2025 - 10.08.2025",
     description:
-      "ParkCinema layihəsində veb sayt və admin panel üzərində dəyişikliklər və optimizasiyalar etdim.\n Ideal Kredit platformasında funksional təkmilləşdirmələr həyata keçirdim.\n BQT admin panelində CRUD əməliyyatlarını və istifadəçi/rol idarəetməsi kimi funksionallıqları üzərin də işləyirəm.\n Layihələrdə Zustand ilə state management istifadə edərək mövcud kodların strukturlaşdırılmasını və performansını yaxşılaşdırdım.\n Backend developer ilə sıx əməkdaşlıq edərək inteqrasiya olunmuş API-lərlə məlumat axınını uğurla idarə etdim.",
+      "Veb tətbiqləri figma dizaynına uyğun yazılması və müştəri istəyinə uyğun hazırlanması.\n Müştəri tələblərinə uyğun yeni funksionallıqların əlavə edilməsi.\n Sayt üzərində yaranan xətaların aradan qaldırılması və optimizasiya işlərinin görülməsi.\n Layihələrin düzgün işləməsi üçün texniki dəstəyin göstərilməsi və komanda ilə koordinasiya.\n Komanda ilə sıx əməkdaşlıq edərək inteqrasiya olunmuş API lərlə məlumat axınını uğurla idarə etdim.\n Layihə idarəetmə alətlərindən (Trello) istifadə edərək taskları yerinə yetirmək.\n Bitbucket və digər versiya nəzarət sistemlərindən istifadə edərək layihələrin idarə olunması\n API inteqrasiyaları ilə dinamik məlumat axınının təmin olunması. yuxarda yazdigim description icindekini bununla evez et eynisi",
   },
   {
     id: 1,
