@@ -10,7 +10,7 @@ export const ExperienceData: JobDataType[] = [
   {
     id: 0,
     company: "QSS Analytics",
-    jobTitle: "Front End Developer",
+    jobTitle: "Front End Developer Intern",
     date: "12.09.2025 - present",
     description:
       "Responsiv və mobil uyğun interfeyslər hazırlamaq.\n Modul və təkrar istifadə oluna bilən UI komponentlər hazırlamaq.\n Backend API-larla inteqrasiya etmək və verilənləri vizuallaşdırmaq.\n Kodun təkrar yazılmamasına və tətbiqin optimizasiyasını yerinə yetirmək.",
