@@ -3,7 +3,7 @@ import React from "react";
 const UiVerseButton: React.FC = () => {
   return (
     <a
-      href="https://github.com/user-attachments/files/21835951/Eltac.Maharramli.CV.pdf"
+      href="https://github.com/user-attachments/files/22464281/Eltac.Maharramli.CV.pdf"
       download="Resume.-.Eltac.Maharramli.pdf"
       className="max-w-[182px] w-full max-h-full h-14"
     >
