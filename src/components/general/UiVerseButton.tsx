@@ -10,7 +10,7 @@ const UiVerseButton: React.FC = () => {
       <button className="cursor-pointer flex gap-5 justify-center items-center bg-[#F78F42] rounded-[56px] max-w-[182px] w-full max-h-full h-14 px-3 py-2 text-white tracking-wider shadow-xl hover:bg-[#F78F42] hover:scale-105 duration-500 hover:ring-1">
         <span className="text-[#131313] text-[18px] max-sm:text-[10px] font-medium">
           CV
-        </span>{" "}
+        </span>
         <svg
           xmlns="http://www.w3.org/2000/svg"
           fill="none"

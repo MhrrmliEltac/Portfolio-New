@@ -9,6 +9,14 @@ export interface JobDataType {
 export const ExperienceData: JobDataType[] = [
   {
     id: 0,
+    company: "Bionet MMC / Tripocell.com",
+    jobTitle: "Front End Developer",
+    date: "09.2025 - Present",
+    description:
+      "ERP sistemlərinin hazırlanmasında iştirak.\n React və React Native əsaslı layihələrin inkişaf etdirilməsi.\n Mobil tətbiqlərin dizayn və funksionallıqlarının hazırlanması.\n Əməkdaş şirkətlərin veb saytlarına texniki dəstək göstərilməsi.\n Komanda ilə birgə veb saytların hazırlanması və təkmilləşdirilməsi.\n Figma dizaynlarına uyğun şəkildə veb və mobil interfeyslərin tərtibatı.\n API inteqrasiyalarının həyata keçirilməsi.\n Backend developer ilə koordinasiyalı şəkildə işləmək.\n Kod strukturunun optimallaşdırılması və səliqəli şəkildə saxlanılması.\n Hazır şablonlar üzərində uyğunlaşdırılmış dəyişikliklərin edilməsi.",
+  },
+  {
+    id: 0,
     company: "QSS Analytics",
     jobTitle: "Front End Developer Intern",
     date: "12.09.2025 - present",
